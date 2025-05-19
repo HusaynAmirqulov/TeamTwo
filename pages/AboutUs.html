@@ -59,6 +59,235 @@
       }
     </style>
   </head>
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nonprofit Organization</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: { primary: "#4CAF50", secondary: "#8BC34A" },
+            borderRadius: {
+              none: "0px",
+              sm: "4px",
+              DEFAULT: "8px",
+              md: "12px",
+              lg: "16px",
+              xl: "20px",
+              "2xl": "24px",
+              "3xl": "32px",
+              full: "9999px",
+              button: "8px",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+    <style>
+      .hero-section {
+        background-image: url();
+        background-size: cover;
+        background-position: center;
+      }
+      .video-overlay {
+        background: rgba(255, 255, 255, 0.85);
+      }
+      .mission-vision-section {
+        background-color: #f8f9fa;
+      }
+      .award-icon {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen bg-white">
+    <main class="min-h-screen">
+      
+      <div class="container mx-auto px-4 py-16 max-w-7xl">
+        <div class="mb-12">
+          <p
+            class="uppercase text-sm font-semibold tracking-wider text-gray-600 border-b pb-2 inline-block"
+          >
+            Know About Us
+          </p>
+        </div>
+
+        
+        <div class="flex flex-col lg:flex-row items-center gap-12 mb-20">
+          <div class="lg:w-1/2">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              We are a nonprofit team working worldwide
+            </h1>
+          </div>
+          <div class="lg:w-1/2">
+            <p class="text-gray-700 mb-4">
+              Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
+              Nunc ut sem vitae risus tristique posuere.
+            </p>
+            <p class="text-gray-600 mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
+              libero vitae erat.
+            </p>
+            <p class="text-gray-600">
+              Suspendisse varius enim elementum tristique.
+            </p>
+          </div>
+        </div>
+        
+        <div class="rounded-xl overflow-hidden relative mb-20 hero-section">
+          <div class="video-overlay absolute inset-0"></div>
+          <div class="relative py-20 px-6 flex justify-center items-center">
+            <img src="./Video.svg" alt="" />
+            <div
+              class="w-16 h-16 bg-white rounded-full flex items-center justify-center cursor-pointer shadow-lg"
+            >
+            
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
+          <div>
+            <p
+              class="uppercase text-sm font-semibold tracking-wider text-gray-600 mb-4"
+            >
+              Our Mission
+            </p>
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+              We make the world we save our own environment
+            </h2>
+            <p class="text-gray-600 mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
+              libero vitae erat.
+            </p>
+            <p class="text-gray-600">
+              Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
+              Nunc ut sem vitae risus tristique posuere.
+            </p>
+          </div>
+          <div>
+            <p
+              class="uppercase text-sm font-semibold tracking-wider text-gray-600 mb-4"
+            >
+              Our Vision
+            </p>
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+              Plant more trees to make world air pollution free
+            </h2>
+            <p class="text-gray-600 mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
+              libero vitae erat.
+            </p>
+            <p class="text-gray-600">
+              Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
+              Nunc ut sem vitae risus tristique posuere.
+            </p>
+          </div>
+        </div>
+        <div class="mb-20">
+          <p
+            class="uppercase text-sm font-semibold tracking-wider text-gray-600 mb-8"
+          >
+            Our Supporters
+          </p>
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+            <div class="flex items-center justify-center">
+              <div class="text-gray-400 flex items-center">
+                <i class="ri-building-line ri-2x mr-2"></i>
+                <span class="font-medium">logoipsum</span>
+              </div>
+            </div>
+            <div class="flex items-center justify-center">
+              <div class="text-gray-400 flex items-center">
+                <i class="ri-building-2-line ri-2x mr-2"></i>
+                <span class="font-medium">logoipsum</span>
+              </div>
+            </div>
+            <div class="flex items-center justify-center">
+              <div class="text-gray-400 flex items-center">
+                <i class="ri-building-3-line ri-2x mr-2"></i>
+                <span class="font-medium">logoipsum</span>
+              </div>
+            </div>
+            <div class="flex items-center justify-center">
+              <div class="text-gray-400 flex items-center">
+                <i class="ri-building-4-line ri-2x mr-2"></i>
+                <span class="font-medium">logoipsum</span>
+              </div>
+            </div>
+            <div class="flex items-center justify-center">
+              <div class="text-gray-400 flex items-center">
+                <i class="ri-community-line ri-2x mr-2"></i>
+                <span class="font-medium">logoipsum</span>
+              </div>
+            </div>
+            <div class="flex items-center justify-center">
+              <div class="text-gray-400 flex items-center">
+                <i class="ri-government-line ri-2x mr-2"></i>
+                <span class="font-medium">logoipsum</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        
+        
+        
+      </div>
+  
+    <style>
+        :where([class^="ri-"])::before { content: "\f3c2"; }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-section {
+            background-color: #000;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        .team-member-img {
+            transition: all 0.3s ease;
+        }
+        .team-member:hover .team-member-img {
+            transform: scale(1.05);
+        }
+        .social-icon {
+            transition: all 0.3s ease;
+        }
+        .social-icon:hover {
+            transform: translateY(-3px);
+            color: #3b82f6;
+        }
+    </style>
         <div class="py-16">
           <h2 class="text-3xl font-bold text-center text-gray-900 mb-16">
             Awards & Recognitions
