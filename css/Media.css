@@ -16,7 +16,11 @@
   --primeyashil: rgba(112, 193, 116, 1);
 }
 section {
+  margin-top: 150px;
   background-color: var(--yashilbek);
+}
+.events-section {
+  background-color: var(--oq);
 }
 .line {
   width: 50px;
@@ -188,5 +192,14 @@ button {
   }
   .section-h1 {
     font-size: 30px;
+  }
+}
+
+@media (max-width: 935px) {
+  .nav{
+    flex-direction: column;
+  }
+  .nav-menus{
+    margin: 15px 0;
   }
 }
