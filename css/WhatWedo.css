@@ -20,6 +20,10 @@
   margin-right: 20px;
 }
 
+section {
+  margin-top: 90px;
+}
+
 .text {
   font-family: Roboto;
   font-weight: 700;
@@ -176,5 +180,20 @@
   .text {
     font-size: 10px;
     justify-content: center;
+  }
+}
+
+@media (max-width: 935px) {
+  .nav {
+    flex-direction: column;
+  }
+  .nav-menus {
+    margin: 15px 0;
+  }
+}
+
+@media (max-width:675px) {
+  .nav-menu{
+    flex-direction: column;
   }
 }
