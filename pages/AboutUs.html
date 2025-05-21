@@ -40,6 +40,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
     />
+      <!-- cdn js -->
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/AboutUs.css">
+    <link rel="stylesheet" href="../css/style.css">
     <style>
       .hero-section {
         background-image: url();
@@ -57,9 +64,57 @@
         height: 80px;
         margin: 0 auto;
       }
+
+      /* @media (max-width:485px) {
+        .nav-menu{
+          flex-direction: column;
+        }
+      }
+
+      @media (max-width:768px) {
+        .nav{
+          flex-direction: column;
+        }
+        .nav-menus{
+          margin: 15px 0;
+        }
+      } */
     </style>
   </head>
-        <div class="py-16">
+  <header id="header">
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-brand">
+          <img src="../images/Logo.svg" alt="" />
+          <i class="fa-solid fa-bars" id="hamburger"></i>
+        </div>
+        <div class="nav-menus">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./AboutUs.html" class="nav-link">About us</a>
+            </li>
+            <li class="nav-item">
+              <a href="./WhatWedo.html" class="nav-link">What We Do</a>
+            </li>
+            <li class="nav-item">
+              <a href="./Media.html" class="nav-link">Media</a>
+            </li>
+            <li class="nav-item">
+              <a href="./ContactUs.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <a href="./Donation.html">
+          <button class="nav-btn">Donate</button>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+        <div class="py-16" style="margin-top: 50px;">
           <h2 class="text-3xl font-bold text-center text-gray-900 mb-16">
             Awards & Recognitions
           </h2>
@@ -366,9 +421,56 @@
         </div>
     </section>
 
-   
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-links">
+            <div class="footer-logo">
+              <img src="" alt="finsweet" />
+            </div>
+            <div class="footer-column">
+              <h3>Our team</h3>
+              <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">What we do</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
 
-  
+            <div class="footer-column">
+              <h3>More</h3>
+              <ul>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Donate</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h3>Connect</h3>
+              <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Linkedin</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-subscribe">
+              <h3>Subscribe to get latest updates</h3>
+              <div class="subscribe-form">
+                <input type="email" placeholder="Your email" />
+                <button type="submit">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
 </body>
 </html>
     </main>
