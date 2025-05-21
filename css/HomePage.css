@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+main {
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+main .text-img {
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .text-img .text {
+  max-width: 704px;
+}
+main .text-img .text h3 {
+  font-family: Roboto;
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+main .text-img .text h2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0px;
+}
+main .text-img .text p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0px;
+  color: #525560;
+  margin-top: 40px;
+  width: 608px;
+}
+main .text-img .text button {
+  padding: 16px 32px;
+  border: none;
+  border-radius: 10px;
+  background: #70c174;
+  color: white;
+}
+main .logo {
+  margin-top: 64px;
+}
+main .logo .hr-p {
+  max-width: 1280px;
+  display: flex;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+main .logo .lgs {
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+main .text-img-1 {
+  width: 100%;
+  max-width: 1280px;
+  background: #eff7f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+main .text-img-1 .text {
+  max-width: 704px;
+}
+main .text-img-1 .text h3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+main .text-img-1 .text h2 {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0px;
+}
+main .text-img-1 .text p {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0px;
+  color: #525560;
+  margin-top: 40px;
+  width: 608px;
+}
+main .text-img-1 .hr-text {
+  max-width: 460px;
+  height: 442px;
+  display: flex;
+  justify-content: space-between;
+}
+main .text-img-1 .hr-text .img-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+main .text-img-1 .hr-text .img-text img {
+  width: 24px;
+  height: auto;
+}
+main .text-img-1 .hr-text .img-text .text-1 h3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+main .text-img-1 .hr-text .img-text .text-1 p {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0px;
+  color: #525560;
+}
+main .h2-p {
+  max-width: 640px;
+  margin-top: 150px;
+}
+main .h2-p h2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0px;
+}
+main .h2-p p {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+main .imgi {
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .imgi .image {
+  max-width: 411px;
+  height: 421px;
+  background-image: url(../images/img/Tint.svg);
+  padding: 20px 50px;
+  background-repeat: no-repeat;
+}
+main .imgi .image h3 {
+  width: 315px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: white;
+}
+main .imgi .image p {
+  width: 315px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+main .imgi .image button {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 16px 32px;
+}
+
+@media (max-width: 1024px) {
+  main {
+    margin-top: 100px;
+  }
+  main .text-img,
+  main .text-img-1,
+  main .imgi,
+  main .logo .lgs,
+  main .logo .hr-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 90%;
+    gap: 20px;
+  }
+  main .text-img img,
+  main .text-img-1 img,
+  main .imgi img,
+  main .lgs img {
+    max-width: 100%;
+    height: auto;
+  }
+  main .text-img .text,
+  main .text-img-1 .text,
+  main .imgi .image {
+    max-width: 100%;
+    width: 100%;
+  }
+  main .logo .hr-p {
+    flex-direction: column;
+    gap: 10px;
+  }
+  main .lgs {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  main .h2-p {
+    margin-top: 100px;
+    text-align: center;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  main .h2-p h2 {
+    font-size: 40px;
+  }
+  main .h2-p p {
+    font-size: 14px;
+  }
+  main .imgi {
+    gap: 32px;
+  }
+  main .imgi .image {
+    padding: 20px;
+    height: auto;
+    background-size: cover;
+  }
+  main .imgi .image h3 {
+    font-size: 22px;
+  }
+  main .imgi .image p {
+    font-size: 14px;
+  }
+  main .imgi .image button {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    margin-top: 80px;
+  }
+  main .text-img,
+  main .text-img-1,
+  main .imgi,
+  main .logo .lgs,
+  main .logo .hr-p {
+    flex-direction: column;
+    gap: 20px;
+  }
+  main .text-img .text h2,
+  main .text-img-1 .text h2,
+  main .h2-p h2 {
+    font-size: 32px;
+  }
+  main .text-img .text p,
+  main .text-img-1 .text p,
+  main .imgi .image p {
+    font-size: 14px;
+    width: 100%;
+  }
+  main .imgi .image h3 {
+    font-size: 20px;
+  }
+  main .imgi .image button {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  main {
+    margin-top: 60px;
+  }
+  main .text-img,
+  main .text-img-1,
+  main .imgi,
+  main .logo .lgs,
+  main .logo .hr-p {
+    width: 100%;
+    padding: 0 10px;
+  }
+  main .text-img .text h2,
+  main .text-img-1 .text h2,
+  main .h2-p h2 {
+    font-size: 24px;
+  }
+  main .text-img .text p,
+  main .text-img-1 .text p,
+  main .imgi .image p {
+    font-size: 13px;
+  }
+  main .imgi .image h3 {
+    font-size: 18px;
+  }
+  main .imgi .image button {
+    font-size: 14px;
+    padding: 14px 24px;
+  }
+  main .lgs img {
+    width: 80px;
+  }
+}
